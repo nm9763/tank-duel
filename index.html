@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080a12">
+<title>双人坦克大战 · Tank Duel</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;min-height:100%;
+    background:radial-gradient(circle at 50% 15%,#1c2340 0%,#080a12 70%);
+    color:#e8edf7;font-family:"Segoe UI","Microsoft YaHei",system-ui,sans-serif}
+  .wrap{max-width:880px;margin:0 auto;padding:48px 20px 64px}
+  .hero{text-align:center;margin-bottom:34px}
+  h1{margin:0 0 10px;font-size:clamp(28px,6vw,46px);letter-spacing:2px;
+    background:linear-gradient(90deg,#5fc8ff,#ff7a8a);-webkit-background-clip:text;
+    background-clip:text;color:transparent}
+  .sub{color:#9aa8c7;font-size:15px;line-height:1.7;margin:0}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .card{display:block;text-decoration:none;color:inherit;padding:18px 18px 16px;
+    border-radius:16px;background:linear-gradient(160deg,rgba(255,255,255,.075),rgba(255,255,255,.015));
+    box-shadow:inset 0 0 0 1px rgba(140,175,255,.18);transition:transform .15s,box-shadow .15s}
+  .card:hover{transform:translateY(-3px);box-shadow:inset 0 0 0 1px rgba(95,200,255,.55),0 18px 40px rgba(0,0,0,.45)}
+  .card b{display:block;font-size:17px;margin-bottom:6px}
+  .card span{display:block;color:#8e9cbb;font-size:13px;line-height:1.6}
+  .tag{display:inline-block;margin-top:10px;font-size:11.5px;font-weight:700;padding:3px 8px;
+    border-radius:999px;background:rgba(95,200,255,.16);color:#8bd4ff}
+  h2{font-size:15px;color:#9aa8c7;font-weight:700;letter-spacing:1px;margin:36px 0 12px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid rgba(140,175,255,.14)}
+  th{color:#9aa8c7;font-weight:600}
+  td a{color:#8bd4ff;text-decoration:none}
+  td a:hover{text-decoration:underline}
+  footer{margin-top:40px;text-align:center;color:#6d7a96;font-size:12.5px;line-height:1.8}
+  kbd{background:rgba(255,255,255,.1);border-radius:5px;padding:1px 6px;font-size:12px;
+    font-family:inherit;border:1px solid rgba(255,255,255,.12)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>双人坦克大战</h1>
+    <p class="sub">纯前端双人坦克对战 · 单文件即开即玩 · 电脑同屏 / 手机双摇杆 / 房间号联机</p>
+  </div>
+
+  <div class="grid">
+    <a class="card" href="电脑版/双人坦克大战1.5.1.html">
+      <b>🖥️ 电脑版 1.5.1</b>
+      <span>双人同屏对战，四张地图、道具、地雷、AI 对手。</span>
+      <span class="tag">WASD + 空格 / 方向键 + Enter</span>
+    </a>
+    <a class="card" href="手机版/双人坦克大战1.5.2-手机版.html">
+      <b>📱 手机版 1.5.2</b>
+      <span>左右双摇杆同屏对战，自动强制横屏，适配安全区。</span>
+      <span class="tag">触屏双摇杆</span>
+    </a>
+    <a class="card" href="手机版/双人坦克大战1.5.2-联机版.html">
+      <b>📶 联机版 1.5.2</b>
+      <span>6 位房间号联机，房主权威模拟，25Hz 快照同步。</span>
+      <span class="tag">真人对战</span>
+    </a>
+  </div>
+
+  <h2>全部版本</h2>
+  <table>
+    <thead><tr><th>版本</th><th>平台</th><th>说明</th><th>打开</th></tr></thead>
+    <tbody>
+      <tr><td>1.5.1</td><td>电脑版</td><td>多地图版（最新）</td><td><a href="电脑版/双人坦克大战1.5.1.html">打开</a></td></tr>
+      <tr><td>1.5</td><td>电脑版</td><td>多地图版</td><td><a href="电脑版/双人坦克大战1.5.html">打开</a></td></tr>
+      <tr><td>1.4</td><td>电脑版</td><td>多地图版</td><td><a href="电脑版/双人坦克大战1.4.html">打开</a></td></tr>
+      <tr><td>1.3</td><td>电脑版</td><td>多地图版</td><td><a href="电脑版/双人坦克大战1.3.html">打开</a></td></tr>
+      <tr><td>1.2</td><td>电脑版</td><td>多地图版</td><td><a href="电脑版/双人坦克大战1.2.html">打开</a></td></tr>
+      <tr><td>1.1</td><td>电脑版</td><td>增强技能版</td><td><a href="电脑版/双人坦克大战1.1.html">打开</a></td></tr>
+      <tr><td>1.0</td><td>电脑版</td><td>Tank Duel 初版</td><td><a href="电脑版/双人坦克大战1.0.html">打开</a></td></tr>
+      <tr><td>1.5.2</td><td>手机版</td><td>手机同屏（最新）</td><td><a href="手机版/双人坦克大战1.5.2-手机版.html">打开</a></td></tr>
+      <tr><td>1.5.2</td><td>手机版</td><td>联机版</td><td><a href="手机版/双人坦克大战1.5.2-联机版.html">打开</a></td></tr>
+      <tr><td>1.5.1</td><td>手机版</td><td>触屏初版</td><td><a href="手机版/双人坦克大战1.5.1-手机版.html">打开</a></td></tr>
+    </tbody>
+  </table>
+
+  <h2>电脑版键位</h2>
+  <table>
+    <thead><tr><th>操作</th><th>玩家 1</th><th>玩家 2</th></tr></thead>
+    <tbody>
+      <tr><td>移动</td><td><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></td><td><kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd></td></tr>
+      <tr><td>开火</td><td><kbd>空格</kbd></td><td><kbd>Enter</kbd></td></tr>
+      <tr><td>布雷</td><td><kbd>Q</kbd></td><td><kbd>/</kbd></td></tr>
+    </tbody>
+  </table>
+
+  <footer>
+    MIT License © 2026 itlzz · 单文件 HTML，零依赖零安装<br>
+    手机版建议全屏运行，联机版需两台设备可互通网络
+  </footer>
+</div>
+</body>
+</html>
