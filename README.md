@@ -5,7 +5,7 @@
 
 > 所有版本都是独立的单 HTML 文件，双击即玩，不需要 Node、不需要构建、不联网（联机版除外）。
 
-**在线试玩（免下载）**：<https://ningmeng9763-source.github.io/tank-duel/>
+**在线试玩（免下载）**：<https://nm9763.github.io/tank-duel/>
 
 ![游戏主界面](preview.png)
 
